@@ -16,7 +16,7 @@ if (window.innerWidth >= 1024) {
   });
 } else {
   headerMenuClose.addEventListener("click", function () {
-    headerMenu.style.transform = "translateX(-1024px)";
+    headerMenu.style.transform = "translateX(1024px)";
     document.body.classList.remove("overflow-hidden");
   });
 
